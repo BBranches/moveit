@@ -6,15 +6,16 @@
 
 :root {
   --white: #fff;
-  --background: #f2f3f5;
+  --purple-dark: #1f1a24;
+  --background: #332940;
   --gray-line: #dcdde0;
-  --text: #666;
-  --text-highlight: #b3b9ff;
-  --title: #2e384d;
-  --red: #e83f5b;
-  --green: #4cd62b;
-  --blue: #5965e0;
-  --blue-dark: #4953b8;
+  --text: #f2e7fe;
+  --title: #ffb5cd;
+  --red: #ff9db0;
+  --green-dark: #005457;
+  --green-light: #03dac5;
+  --green: #017374;
+  --purple-light: #7f39fb;
   --blue-twitter:#2aa9e0;
 }
 

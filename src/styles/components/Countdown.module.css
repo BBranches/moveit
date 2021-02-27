@@ -3,7 +3,7 @@
   align-items: center;
   font-family: Rajdhani, sans-serif;
   font-weight: 600;
-  color: var(--title);
+  color: var(--gray-line);
 }
 
 .countdownContainer > div {
@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-evenly;
 
-  background: var(--white);
+  background: var(--purple-dark);
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   font-size: 8.5rem;
@@ -48,31 +48,31 @@
   border: 0;
   border-radius: 5px;
 
-  background: var(--blue) url("/icons/play_arrow.svg") no-repeat 75% 51%;
+  background: var(--green) url("/icons/play_arrow.svg") no-repeat 75% 51%;
 
-  color: var(--white);
+  color: var(--text);
   font-size: 1.25rem;
   font-weight: 500;
   transition: background-color 0.2s;
 }
 
 .countdownButton:not(:disabled):hover {
-  background: var(--blue-dark) url("/icons/play_arrow.svg") no-repeat 75% 51%;
+  background: var(--green-dark) url("/icons/play_arrow.svg") no-repeat 75% 51%;
 }
 
 .countdownButtonActive {
-  background: var(--white) url("/icons/pause.svg") no-repeat 75% 50%;
+  background: var(--purple-dark) url("/icons/pause.svg") no-repeat 75% 50%;
   color: var(--title);
 }
 
 .countdownButtonActive:not([disabled]):hover {
   background: var(--red) url("/icons/pause_hover.svg") no-repeat 75% 50%;
-  color: var(--white);
+  color: var(--purple-dark);
 }
 
 .countdownButton:disabled {
-  background: var(--white) url("/icons/stop.svg") no-repeat 75% 50%;
+  background: var(--purple-dark) url("/icons/stop.svg") no-repeat 75% 50%;
   color: var(--text);
   cursor: not-allowed;
-  border-bottom: 5px solid var(--green);
+  border-bottom: 5px solid var(--green-light);
 }

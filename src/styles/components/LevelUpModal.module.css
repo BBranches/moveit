@@ -12,7 +12,7 @@ align-items: center;
 }
 
 .container {
-  background: var(--white);
+  background: var(--purple-dark);
   width: 100%;
   max-width: 400px;
   padding: 2rem 3rem;
@@ -26,14 +26,14 @@ align-items: center;
 .container header {
   font-size: 8.75rem;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--title);
   background: url('/icons/levelup.svg') no-repeat center;
   background-size: contain;
 }
 
 .container strong {
   font-size: 2.25rem;
-  color: var(--title);
+  color: var(--green-light);
 }
 
 .container p {
