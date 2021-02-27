@@ -48,7 +48,7 @@
   border: 0;
   border-radius: 5px;
 
-  background: var(--blue) url("/icons/play_arrow.svg") no-repeat 74% 51.5%;
+  background: var(--blue) url("/icons/play_arrow.svg") no-repeat 75% 51%;
 
   color: var(--white);
   font-size: 1.25rem;
@@ -57,7 +57,7 @@
 }
 
 .countdownButton:not(:disabled):hover {
-  background: var(--blue-dark) url("/icons/play_arrow.svg") no-repeat 74% 51%;
+  background: var(--blue-dark) url("/icons/play_arrow.svg") no-repeat 75% 51%;
 }
 
 .countdownButtonActive {
