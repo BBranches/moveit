@@ -9,7 +9,7 @@
 ### Sobre:
 Aplicação desenvolvida utilizando [**React**][reactjs] ⚛️, uma biblioteca JavaScript, que tem como objetivo criar interfaces de usuário (front-end), junto com seu framework: [**Next.js**][next], o qual realiza o processo de server-side rendering (SSR) e [**TypeScript**](https://www.typescriptlang.org/), um superset que adiciona tipagem estática e outros recursos ao JS.
 
-move.it é uma aplicação que tem como propósito ajudar o usuário a cronometrar um período de aprendizagem ou trabalho e nos intervalos proporcionar a prática de algum exercício para o corpo ou olhos com o intuito de melhorar a saúde do usuário. Cada exercício tem um valor de recompensa em xp, que faz o usuário avançar de nível conforme acumula experiência.
+**move.it** é uma aplicação que tem como propósito ajudar o usuário a cronometrar um período de aprendizagem ou trabalho e nos intervalos proporcionar a prática de algum exercício para o corpo ou olhos com o intuito de melhorar a saúde do usuário. Cada exercício tem um valor de recompensa em xp, que faz o usuário avançar de nível conforme acumula experiência.
 
 
 ### Deploy:
@@ -27,6 +27,7 @@ $ yarn install ou npm install
 $ yarn dev ou npm run dev
 
 ```
+
 
 Desenvolvido por [Bárbara Ramos][github] 👩‍💻
 
